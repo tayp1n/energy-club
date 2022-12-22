@@ -1,0 +1,11 @@
+.rx-logo {
+	display: flex;
+}
+
+.rx-logo__link {
+	display: inline-flex;
+}
+
+.rx-logo-display-block .rx-logo__link {
+	flex-direction: column;
+}

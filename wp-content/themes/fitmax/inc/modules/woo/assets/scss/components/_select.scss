@@ -1,0 +1,22 @@
+/**
+ * Select
+ */
+select {
+	font-size: $wc-select-fz;
+	line-height: $wc-select-lh;
+	padding: $wc-select-inset;
+	border: 1px solid #aaa;
+	margin-right: 30px;
+	option{
+		background-color: #272A31;
+		display: block;
+	}
+	&:focus {
+		box-shadow: none;
+		border-color: $wc-accent-color;
+		background-color: $wc-accent-color;
+		color: #fff;
+	}
+}
+
+

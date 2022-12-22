@@ -1,0 +1,54 @@
+.widget_recent_entries a:hover,
+.widget_recent_comments a:hover {
+	color: $link_color;
+}
+
+.widget_recent_entries .post-date,
+.widget_recent_comments .recentcomments {
+	color: $secondary_text_color;
+}
+
+.widget_recent_comments .comment-author-link a {
+	color: $secondary_text_color;
+}
+.widget_recent_comments .comment-author-link a:hover {
+	color: $link_color;
+}
+
+.widget_calendar th,
+.widget_calendar caption {
+	color: $accent_color;
+}
+
+.widget_calendar tbody td a {
+	color: $primary_text_color;
+}
+
+.widget_calendar tbody td a:hover {
+	color: $invert_text_color;
+	background-color: $accent_color;
+}
+
+.widget_calendar tfoot td a {
+	color: $secondary_text_color;
+}
+
+.widget_calendar tfoot td a:hover {
+	color: $link_hover_color;
+}
+
+.widget.widget_nav_menu li a,
+.widget.widget_nav_menu li{
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+	font-size: $body_font_size{px};
+	line-height: $body_line_height;
+	font-family: @font_family( $body_font_family );
+	letter-spacing: $body_letter_spacing{px};
+	text-align: $body_text_align;
+	color: $accent_color;
+}
+.widget.widget_nav_menu li a,
+.widget.widget_nav_menu li{
+	font-size: 14px;
+}

@@ -1,0 +1,39 @@
+#toTop {
+	overflow: hidden;
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 24px;
+	right: -999em;
+	z-index: 999;
+	width: 46px;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: $color__related-posts;
+	padding-bottom: 2px;
+	border-radius: 0;
+	&:before{
+		content: "\f077";
+		@include font-awesome-icon;
+		width: 100%;
+		font-size: 20px;
+		line-height: 28px;
+		transition: .3s ease;
+		color: #fff;
+	}
+	&:hover{
+		background-color: $color__accent;
+		&:before{
+			color: #fff;
+		}
+	}
+	&:focus {
+		outline: none;
+	}
+	@include media-breakpoint-up(sm) {
+		right: 20px;
+	}
+}

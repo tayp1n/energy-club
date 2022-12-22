@@ -1,0 +1,363 @@
+/*--------------------------------------------------------------
+### Single Post
+--------------------------------------------------------------*/
+
+.single-post {
+	article.post {
+		margin-bottom: 46px;
+		padding-bottom: 19px;
+		border-bottom: 1px solid $color__background-hr;
+	}
+	.post>.entry {
+		&-header {
+			margin-bottom: 35px;
+		}
+		&-content {
+			@include media-breakpoint-up(sm) {
+				@include font-size(16/16);
+			}
+		}
+		&-footer {
+			.entry-meta:not(:empty) {
+				margin-top: 45px;
+				padding-top: 24px;
+				border-top: 1px solid $color__background-hr;
+			}
+		}
+	}
+	.entry {
+		&-header {
+			.tags-links {
+				a {
+					display: inline-block;
+					margin-left: 5px;
+				}
+			}
+		}
+		&-footer {
+			.tags-links {
+				a {
+					display: inline-block;
+					margin-left: 5px;
+					margin-bottom: 5px;
+				}
+			}
+		}
+		&-title {
+			margin-top: 0;
+		}
+	}
+	.post-thumbnail {
+		margin-bottom: 24px;
+	}
+	.overlay-thumbnail {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+/*--------------------------------------------------------------
+### Post Template
+--------------------------------------------------------------*/
+
+.post-template {
+
+	//single-layout-2
+	&-single-layout-2 {
+		&.post-template .site-content {
+			margin-top: 0;
+		}
+
+		.single-header-2 {
+			position: relative;
+			margin-bottom: 35px;
+			padding-top: 35px;
+			z-index: 1;
+			&.invert {
+				padding: 50px 0 45px;
+				@include media-breakpoint-up(sm) {
+					padding: 80px 0 75px;
+				}
+				@include media-breakpoint-up(md) {
+					padding: 130px 0 115px;
+				}
+				.entry-title,
+				p {
+					text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
+				}
+			}
+			.cat-links {
+				margin-bottom: 30px;
+				a{
+					border-width: 1px;
+					border-style: solid;
+					&:before{
+						display: none;
+					}
+				}
+			}
+			.entry-title {
+				margin-bottom: 10px;
+			}
+			.entry-header-bottom {
+				margin-top: 40px;
+				@include space-between-content;
+				align-items: center;
+			}
+			.post-author {
+				display: flex;
+				align-items: center;
+				&__avatar {
+					margin-right: 20px;
+				}
+				&__content{
+					i{
+						margin-right: 4px;
+					}
+				}
+			}
+			.comments-button {
+				background: none;
+			}
+			p {
+				@include media-breakpoint-up(sm) {
+					@include font-size(18/16);
+				}
+			}
+			.overlay-thumbnail {
+				&:before {
+					content: '';
+					@include overlay-position;
+					background-color: rgba(0, 0, 0, .5);
+				}
+			}
+		}
+	}
+
+	//single-layout-3
+	&-single-layout-3 {
+		@include media-breakpoint-down(sm) {
+			#author-block {
+				margin-bottom: 50px;
+			}
+		}
+		.single-header-3 {
+			.cat-links {
+				margin-bottom: 18px;
+				&.btn-style {
+					a {
+						border-width: 1px;
+						border-style: solid;
+						&:before{
+							display: none;
+						}
+					}
+				}
+			}
+		}
+		.post-author-bio {
+			display: block;
+			text-align: center;
+			margin: 0 5% 20px;
+			padding: 0;
+			border: none;
+		}
+		.post-author {
+			&__avatar {
+				margin-bottom: 15px;
+			}
+			&__avatar,
+			&__content {
+				padding: 0;
+				>div{
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+		}
+		.posted-on {
+			text-align: center;
+		}
+		&.post-template .site-content {
+			margin-top: 0;
+		}
+		.site-content {
+			&__wrap {
+				margin-top: 50px;
+			}
+		}
+	}
+
+
+	//single-layout-4
+	&-single-layout-4 {
+		&.post-template .site-content {
+			margin-top: 0;
+		}
+		.single-header-4 {
+			margin-bottom: 60px;
+			padding: 60px 0 0;
+			text-align: center;
+			@include media-breakpoint-up(md) {
+				padding: 60px 0 30px;
+			}
+			@include media-breakpoint-up(lg) {
+				padding: 60px 0;
+			}
+			&.with_author_block {
+				background-color: $color__related-posts;
+			}
+			.post-author-bio {
+				display: block;
+				text-align: center;
+				margin: 0 0 32px;
+				padding: 0;
+				border: none;
+			}
+			.post-author__content{
+				margin: 10px auto;
+			}
+			.post-author {
+				&__avatar {
+					margin-bottom: 15px;
+				}
+				&__avatar,
+				&__content {
+					padding: 0;
+				}
+			}
+			.entry {
+				&-title {
+					margin-top: 30px;
+					margin-bottom: 30px;
+					text-transform: uppercase;
+				}
+				&-meta:not(:empty) {
+					margin-top: 35px;
+					margin-bottom: 50px;
+					@media(max-width: 767px){
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+					}
+					@include media-breakpoint-up(sm) {
+						span:not(:last-child){
+							margin-right: 30px;
+						}
+					}
+					.tags-links{
+						i{
+							margin-right: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	//single-layout-5
+	&-single-layout-5 {
+		&.post-template .site-content {
+			margin-top: 0;
+		}
+		.single-header-5 {
+			.entry {
+				&-header {
+					@include border-radius;
+					padding: 32px 40px 25px;
+					margin-top: 30px;
+					margin-bottom: 55px;
+					@include media-breakpoint-down(xs) {
+						text-align: center;
+					}
+					&-bottom {
+						@include media-breakpoint-up(sm) {
+							@include space-between-content;
+							align-items: flex-end;
+						}
+					}
+					.post-author,
+					.cat-links,
+					.posted-on {
+						padding: 0 18px 15px 0;
+						display: inline-block;
+					}
+					.post-author {
+						@include media-breakpoint-down(sm) {
+							display: block;
+						}
+					}
+				}
+				&-title {
+					max-width: 700px;
+					margin-bottom: 17px;
+				}
+			}
+			&.has-post-thumbnail {
+				.entry-header {
+					margin-top: -100px;
+					background-color: $color__related-posts;
+				}
+			}
+			.post-author {
+				&__avatar {
+					margin-right: 12px;
+					img {
+						vertical-align: middle;
+					}
+				}
+			}
+			.post-thumbnail {
+				margin-bottom: 0;
+				img {
+					@include border-radius(0);
+					object-fit: cover;
+					width: 100%;
+					max-width: none;
+					max-height: 730px;
+				}
+			}
+			.comments-button {
+				background: none;
+				margin-bottom: 15px;
+			}
+		}
+	}
+}
+
+.post-template-default.single-post{
+	.entry-header{
+		margin-bottom: 0;
+		.entry-meta{
+			margin-bottom: 19px;
+		}
+		.post-thumbnail{
+			margin-top: 24px;
+		}
+		.entry-title{
+			margin-bottom: 10px;
+		}
+	}
+	.entry-content{
+		p{
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.post_format-post-format-link .entry-content,
+.post_format-post-format-aside .entry-content,
+.post_format-post-format-audio .entry-content,
+.post_format-post-format-status .entry-content{
+	padding: 35px 40px;
+	border: 1px solid $color__accent;
+	margin: 18px 0 10px;
+}

@@ -1,0 +1,228 @@
+.rx-theme-assistant-accordion {
+	&__inner {
+		display: flex;
+		flex-flow: column;
+		align-items: stretch;
+	}
+}
+
+.rx-theme-assistant-toggle {
+	display: flex;
+	flex-flow: column;
+	align-items: stretch;
+	//overflow: hidden; // @since 1.1.8 Disabled this property to prevent cut box-shadow
+
+	border: 1px solid #e8e8f6;
+	margin-bottom: 20px;
+	background-color: white;
+
+	&:first-child {
+		margin-top: 0 !important;
+	}
+
+	&:last-child {
+		margin-bottom: 0 !important;
+	}
+
+	&.active-toggle {
+
+		> .rx-theme-assistant-toggle__control {
+			.rx-theme-assistant-toggle__label-icon {
+				.icon-normal {
+					display: none;
+				}
+
+				.icon-active {
+					display: flex;
+				}
+			}
+		}
+
+		> .rx-theme-assistant-toggle__content {
+			height: auto;
+		}
+	}
+
+	&__control {
+		padding: 8px 20px;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		cursor: pointer;
+
+		&:hover {}
+	}
+
+	&__label-icon {
+		margin-right: 10px;
+
+		&.rx-theme-assistant-toggle-icon-position-right {
+			margin-left: 10px;
+			margin-right: 0;
+			order: 3;
+		}
+
+		.icon-active {
+			display: none;
+		}
+
+		i {
+			display: flex;
+		}
+	}
+
+	&__icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		font-size: 15px;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		color: #6ec1e4;
+
+		svg {
+			height: auto;
+			fill: currentColor;
+		}
+	}
+
+	&__label-text {
+		user-select: none;
+	}
+
+	&__content {
+		height: 0;
+		overflow: hidden;
+		transition: height 0.5s ease;
+
+		.rx-theme-assistant-toggle:not(.active-toggle) > & {
+			padding: 0 !important;
+			margin: 0 !important;
+			border: none !important;
+			box-shadow: none !important;
+		}
+
+		> .elementor {
+			> .elementor-inner {
+				margin: 0;
+			}
+		}
+	}
+
+	&__content-inner {
+		position: relative;
+		padding: 30px;
+	}
+
+	&-fade-effect {
+		&.active-toggle {
+			.rx-theme-assistant-toggle__content {
+				.rx-theme-assistant-toggle__content-inner {
+					animation-name: rxFade;
+					animation-duration: 500ms;
+					animation-timing-function: cubic-bezier(.26,.69,.37,.96);
+					animation-play-state: running;
+				}
+			}
+		}
+	}
+
+	&-zoom-in-effect {
+		&.active-toggle {
+			.rx-theme-assistant-toggle__content {
+				.rx-theme-assistant-toggle__content-inner {
+					animation-name: rxZoomIn;
+					animation-duration: 500ms;
+					animation-timing-function: cubic-bezier(.26,.69,.37,.96);
+					animation-play-state: running;
+				}
+			}
+		}
+	}
+
+	&-zoom-out-effect {
+		&.active-toggle {
+			.rx-theme-assistant-toggle__content {
+				.rx-theme-assistant-toggle__content-inner {
+					animation-name: rxZoomOut;
+					animation-duration: 500ms;
+					animation-timing-function: cubic-bezier(.26,.69,.37,.96);
+					animation-play-state: running;
+				}
+			}
+		}
+	}
+
+	&-move-up-effect {
+		&.active-toggle {
+			.rx-theme-assistant-toggle__content {
+				.rx-theme-assistant-toggle__content-inner {
+					animation-name: rxMoveUp;
+					animation-duration: 500ms;
+					animation-timing-function: cubic-bezier(.26,.69,.37,.96);
+					animation-play-state: running;
+				}
+			}
+		}
+	}
+
+	&-fall-perspective-effect {
+		&.active-toggle {
+			.rx-theme-assistant-toggle__content {
+				.rx-theme-assistant-toggle__content-inner {
+					animation-name: rxFallPerspective;
+					animation-duration: 500ms;
+					animation-timing-function: cubic-bezier(.26,.69,.37,.96);
+					animation-play-state: running;
+				}
+			}
+		}
+	}
+}
+
+a.rx-theme-assistant-toggle__edit-cover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	box-sizing: border-box;
+	height: 30px;
+	padding: 5px 10px;
+	left: 10px;
+	top: 10px;
+	background-color: white;
+	box-shadow: inset 0 0 0 1px #d30c5c;
+	z-index: 99;
+	cursor: pointer;
+	transition:  opacity 0.3s ease;
+	text-decoration: none;
+
+	span {
+		font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;
+		font-size: 14px;
+		font-weight: 500;
+		color: #d30c5c;
+	}
+
+	&:hover {
+		background-color: #d30c5c;
+		animation: none;
+
+		span {
+			color: white;
+		}
+	}
+}
+
+.rx-theme-assistant-toggle-no-template-message {
+	text-align: center;
+	padding: 10px;
+}
+
+.rx-theme-assistant-toggle-new-template-link {
+	color: #6ec1e4;
+	text-decoration: underline;
+}

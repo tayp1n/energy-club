@@ -1,0 +1,39 @@
+.rx-theme-assistant-carousel {
+	.rx-theme-assistant-carousel__item {
+		&-title {
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.rx-theme-assistant-arrow {
+		width: 36px;
+		height: 36px;
+		border-radius: 0px;
+		margin-top: -18px;
+		color: #fff;
+		background-color: #707070;
+		&:before {
+			font-size: 23px;
+		}
+		&.prev-arrow {
+			left: 20px;
+		}
+		&.next-arrow {
+			right: 20px;
+		}
+	}
+
+	.rx-theme-assistant-slick-dots {
+		li {
+			span {
+				background-color: #b7b4b4;
+			}
+
+			&.slick-active {
+				span {
+					background-color: #707070;
+				}
+			}
+		}
+	}
+}

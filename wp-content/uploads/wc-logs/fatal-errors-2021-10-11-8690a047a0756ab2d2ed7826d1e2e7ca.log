@@ -1,0 +1,9 @@
+2021-10-11T08:47:35+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in W:\domains\wordpressEnergy\wp-content\plugins\rx-theme-assistant\templates\rx-theme-assistant-shop-cart\global\cart-count.php:11
+Stack trace:
+#0 W:\domains\wordpressEnergy\wp-content\plugins\rx-theme-assistant\templates\rx-theme-assistant-shop-cart\global\cart-link.php(16): include()
+#1 W:\domains\wordpressEnergy\wp-content\plugins\rx-theme-assistant\templates\rx-theme-assistant-shop-cart\global\index.php(3): include('W:\\domains\\word...')
+#2 W:\domains\wordpressEnergy\wp-content\plugins\rx-theme-assistant\includes\addons\third-party\rx-theme-assistant-shop-cart.php(1845): include('W:\\domains\\word...')
+#3 W:\domains\wordpressEnergy\wp-content\plugins\elementor\includes\base\controls-stack.php(2144): Elementor\Rx_Theme_Assistant_Shop_Cart->render()
+#4 W:\domains\wordpressEnergy\wp-content\plugins\elementor\includes\base\widget-base.php(581): Elementor\Controls_Stack->render_by_mode()
+#5 W:\domains\wordpressEnergy\wp-content\plugi у W:\domains\wordpressEnergy\wp-content\plugins\rx-theme-assistant\templates\rx-theme-assistant-shop-cart\global\cart-count.php доступно 11
+

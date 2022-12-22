@@ -1,0 +1,156 @@
+/* Image Post Format */
+
+.post_format-post-format-image {
+	.post-thumbnail {
+		margin-bottom: 20px;
+		&__link {
+			position: relative;
+			display: block;
+			&:before {
+				@include font-awesome-icon;
+				content: '\f00e';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 70px;
+				height: 70px;
+				margin: -35px 0 0 -35px;
+				font-size: 35px;
+				line-height: 70px;
+				text-align: center;
+				border-radius: 50%;
+				box-shadow: 0px 0px 35px 0px rgba($color__dark, .7);
+				transition: opacity 0.2s ease, transform 0.2s ease;
+				transform: scale(.35);
+				opacity: 0;
+			}
+			&:hover {
+				&:before {
+					transform: scale(1);
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+/* Gallery Post Format */
+
+.post_format-post-format-gallery {
+	.post-thumbnail {
+		display: block;
+		margin-bottom: 20px;
+		&__link {
+			display: block;
+		}
+	}
+	.swiper-button-prev,
+	.swiper-button-next {
+		width: 45px;
+		height: 45px;
+		margin-top: -35px;
+		text-align: center;
+		@include font-awesome-icon;
+		@include font-size(18/16);
+		border-radius: 50%;
+		background-image: none;
+		background-color: $color__white;
+		box-shadow: 0px 0px 20px 0px rgba(59, 61, 66, 0.1);
+		&:before {
+			line-height: 45px;
+		}
+	}
+	.swiper-button-prev:before {
+		content: '\f104';
+	}
+	.swiper-button-next:before {
+		content: '\f105';
+	}
+}
+
+
+.posts-list__item{
+	/* Link, Status, Aside Post Format */
+	&.post_format-post-format-link,
+	&.post_format-post-format-status,
+	&.post_format-post-format-aside {
+		.entry-content {
+			@include font-size(18/16);
+			font-weight: 400;
+			@include border-radius;
+			border-width: 1px;
+			border-style: solid;
+			margin-bottom: 24px;
+			padding: 35px 40px;
+			background-color: transparent;
+		}
+	}
+
+	/* Link Post Format */
+	&.post_format-post-format-link {
+		.entry-content {
+			&:before {
+				transform: translateY(1px);
+				content: '\f0c1';
+				margin-right: 8px;
+				@include font-awesome-icon;
+			}
+		}
+	}
+
+	/* Status Post Format */
+	&.post_format-post-format-status {
+		.entry-content {
+			&:before {
+				transform: translateY(1px);
+				content: '\f00c';
+				margin-right: 8px;
+				@include font-awesome-icon;
+			}
+		}
+	}
+
+	/* Link Post Format */
+	&.post_format-post-format-quote {
+		blockquote{
+			margin: 0;
+		}
+		.entry-content {
+			margin-bottom: 24px;
+		}
+	}
+}
+.post_format-post-format-link {
+	.entry-content {
+		p{
+			&:before {
+				transform: translateY(1px);
+				content: '\f0c1';
+				margin-right: 8px;
+				@include font-awesome-icon;
+				color: $color__accent;
+			}
+		}
+	}
+}
+
+/* Audio Post Format */
+.post_format-post-format-audio {
+	.entry-content {
+		@include border-radius;
+		border-width: 1px;
+		border-style: solid;
+		margin-bottom: 24px;
+		padding: 35px 40px;
+		background-color: transparent;
+	}
+}
+
+/* Video Post Format */
+.post_format-post-format-video {
+	.wp-video {
+		margin-bottom: 24px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

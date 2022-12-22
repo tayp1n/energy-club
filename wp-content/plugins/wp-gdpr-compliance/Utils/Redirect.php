@@ -1,0 +1,41 @@
+<?php
+namespace WPGDPRC\Utils;
+
+use WPGDPRC\WordPress\Plugin;
+
+/**
+ * Class Redirect
+ * @package WPGDPRC\Utils
+ */
+class Redirect {
+
+    /**
+     * Redirects to a given url (with optional message)
+     * @param string $url
+     * @param null $message
+     */
+    public static function goToUrl( $url = '', $message = null ) {
+        if( is_null($message) ) $message = sprintf( __( 'Redirecting to %s', 'wp-gdpr-compliance' ), $url );
+        echo $message;
+        ?><script>location.href = '<?php echo $url; ?>';</script><?php
+        die();
+    }
+
+    /**
+     * Replaces and changes the history with a given url
+     * @param string $url
+     */
+    public static function replaceUrl( $url = '' ) {
+        if( empty($url) ) return;
+        ?><script>history.replaceState({},'','<?php echo $url; ?>');</script><?php
+    }
+
+    /**
+     * @param string $url
+     */
+    public static function openNewTab( $url = '' ) {
+        if( empty($url) ) return;
+        ?><script>window.open('<?php echo $url; ?>', '_blank');</script><?php
+    }
+
+}

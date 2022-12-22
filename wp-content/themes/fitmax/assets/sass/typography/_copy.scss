@@ -1,0 +1,90 @@
+p {
+	margin: 0 0 1em;
+}
+.elementor p{
+	margin-bottom: 0;
+}
+.site .elementor .elementor-image a,
+.site h2 a:not([class]),
+.site h3 a:not([class]),
+.site h4 a:not([class]){
+	&:before{
+		display: none;
+	}
+}
+.comment-reply-link,
+.site a:not([class]){
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		display: block;
+		bottom: -1px;
+		left: 0;
+		transition: .3s ease;
+		height: 1px;
+		width: 0;
+	}
+}
+
+.comment-reply-link:hover,
+.elementor a:hover,
+.site a:not([class]):hover,
+.site a:not(.comments-link):hover{
+	&:before{
+		width: 100%;
+	}
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+.wp-block-html,
+.wp-block-code,
+pre {
+	font-family: $font__pre;
+	line-height: $font__line-height-pre;
+	overflow: auto;
+	max-width: 100%;
+	margin: 0 0 1.5em;
+	padding: 1.5em;
+	border-radius: 0;
+	background: $color__accent;
+	border: none;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+
+	@include font-size(1);
+}
+
+code, kbd, tt, var {
+	font-family: $font__code;
+
+	@include font-size(0.9375);
+}
+
+code {
+	padding: 2px 5px;
+	border: 1px solid $color__background-hr;
+}
+
+abbr, acronym {
+	cursor: help;
+	border-bottom: 1px dotted $color__border-abbr;
+}
+
+mark, ins {
+	font-style: italic;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+big {
+	font-size: 125%;
+}

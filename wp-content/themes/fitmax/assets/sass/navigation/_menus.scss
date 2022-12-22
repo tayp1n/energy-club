@@ -1,0 +1,503 @@
+.main-navigation {
+	position: relative;
+	flex: 1 1 auto;
+}
+
+.menu {
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: stretch;
+
+	@media (max-width: 767px) {
+		flex-flow: column wrap;
+		justify-content: center;
+	}
+
+	.mobile-layout & {
+		flex-flow: column wrap;
+	}
+
+	.desktop-layout & {
+		flex-flow: row wrap;
+	}
+
+	> .menu-item {
+		display: flex;
+
+		> a {
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			margin: 0;
+			white-space: nowrap;
+			padding: 5px 10px;
+			text-transform: uppercase;
+		}
+	}
+
+	ul {
+		left: 0;
+	}
+}
+
+.menu-item {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: stretch;
+
+	> a {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		width: auto;
+		@media(max-width: 767px){
+			&:before{
+				opacity: 0;
+			}
+		}
+	}
+
+	.top-level-link {
+		display: flex;
+	}
+
+	&-desc {
+		white-space: normal;
+	}
+
+	.sub-menu {
+		display: block;
+		min-width: 165px;
+		margin: 0;
+		background-color: $color__darkgray2;
+		list-style: none;
+		left: 0;
+		top: 0;
+		position: absolute;
+		padding: 15px 20px 18px;
+		z-index: auto;
+
+		@media (max-width: 768px) {
+			position: relative;
+		}
+
+		.mobile-layout & {
+			position: relative;
+		}
+
+		.desktop-layout & {
+			position: absolute;
+			min-width: 165px;
+			top: 100%;
+			left: 0;
+			right: auto;
+			box-shadow: 2px 2px 5px rgba( 0, 0, 0, 0.2 );
+			z-index: 999;
+			pointer-events: none;
+
+			.sub-menu {
+				top: 0;
+				left: 100%;
+				right: auto;
+			}
+
+			&.right-side {
+				top: 0;
+				right: 0;
+				left: auto;
+
+				.sub-menu {
+					top: 0;
+					right: 100%;
+					left: auto;
+				}
+			}
+		}
+
+		> li {
+			display: flex;
+
+			> a {
+				padding: 5px 10px;
+				text-align: center;
+				font-size: 14px;
+				line-height: 1.4em;
+				@media(max-width: 767px){
+					text-align: left;
+					justify-content: space-between;
+					&:before{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+.desktop-layout {
+	.menu {
+		.menu-item {
+			&.menu-item-has-children {
+				> a {
+					.has-child-marker {
+						position: relative;
+						display: flex;
+						flex-flow: row nowrap;
+						justify-content: center;
+						align-items: center;
+						width: 10px;
+						height: 10px;
+						margin-left: 3px;
+
+						&:after {
+							@include font-awesome-icon;
+							line-height: inherit;
+							content: '\f107';
+						}
+					}
+
+					.sub-menu & {
+						.has-child-marker {
+							&:after {
+								content: '\f105';
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.mobile-layout {
+	padding-bottom: 49px;
+	.menu>.menu-item>a{
+		padding: 8px 10px;
+	}
+
+	.main-navigation {
+		display: flex;
+		justify-content: flex-start;
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		background-color: $color__background-screen;
+		z-index: 998;
+	}
+
+	.main-navigation.default {
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity .4s cubic-bezier(0.4, 0, 1, 1);
+	}
+
+	&.mobile-menu-visible {
+		.site-header .main-navigation.default{
+			opacity: 1;
+			pointer-events: all;
+			transition-timing-function:cubic-bezier(0.22, 0.61, 0.36, 1);
+		}
+	}
+
+	.main-navigation-inner {
+		width: 100%;
+		overflow-y: scroll;
+	}
+
+	.menu-inner {
+		overflow-y: scroll;
+		display: block;
+		height: 100vh;
+	}
+
+	.menu {
+		background-image: none;
+
+		.menu-item {
+			flex-flow: column nowrap;
+
+			> a.top-level-link,
+			> a.sub-level-link {
+				border-radius: 0;
+				border-left: none;
+				border-right: none;
+				border-bottom-width: 1px;
+			}
+
+			& > .sub-menu {
+				border-radius: 0;
+				box-shadow: none;
+			}
+
+			& > .sub-mega-menu {
+				border-radius: 0;
+				box-shadow: none;
+			}
+
+			&.menu-hover {
+				& > .sub-menu {
+					height: auto;
+					pointer-events: auto;
+				}
+
+			}
+
+			&:not(.menu-hover) {
+				& > .sub-menu {
+					padding: 0 !important;
+					border: none !important;
+					margin: 0  !important;
+				}
+			}
+
+
+			&.menu-item-has-children {
+				> a {
+					.has-child-marker {
+						position: relative;
+						display: flex;
+						flex-flow: row nowrap;
+						justify-content: center;
+						align-items: center;
+						width: 25px;
+						height: 14px;
+						font-size: 25px;
+
+						&:after {
+							@include font-awesome-icon;
+							line-height: inherit;
+							content: '\f107';
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.sub-menu {
+		height: 0;
+		opacity: 1;
+		overflow: hidden;
+		visibility: visible;
+		padding: 15px 0 15px 15px;
+	}
+}
+
+.responsive-menu {
+	> li {
+		&[hidden] {
+			display: none;
+		}
+	}
+
+	&-available-items {
+		&[hidden] {
+			display: none;
+		}
+	}
+}
+
+body.mobile-menu-visible {
+	overflow: hidden;
+	height: 100vh;
+}
+
+// FIX showing sub-menu and sub-mega-menu when loading a page.
+.sub-menu {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.desktop-layout {
+	.menu--animation-type-none {
+
+		.sub-menu {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.menu-item {
+
+			&.menu-hover {
+				& > .sub-menu {
+					top: 100%;
+					opacity: 1;
+					visibility: visible;
+					pointer-events: auto;
+				}
+			}
+
+			li {
+				&.menu-hover {
+					& > .sub-menu {
+						top: 0;
+						opacity: 1;
+						visibility: visible;
+						pointer-events: auto;
+					}
+				}
+			}
+		}
+	}
+
+	.menu--animation-type-fade {
+
+		.sub-menu {
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .3s cubic-bezier(.48,.01,.5,.99),
+						visibility .1s linear;
+		}
+
+		.menu-item {
+
+			&.menu-hover {
+				& > .sub-menu {
+					top: 100%;
+					opacity: 1;
+					visibility: visible;
+					pointer-events: auto;
+				}
+			}
+
+			li {
+				&.menu-hover {
+					& > .sub-menu {
+						top: 0;
+						opacity: 1;
+						visibility: visible;
+						pointer-events: auto;
+					}
+				}
+			}
+		}
+
+	}
+
+	.menu--animation-type-move-up {
+
+		.sub-menu {
+			opacity: 0;
+			top: 130%;
+			visibility: hidden;
+			transition: top .2s cubic-bezier(.48,.01,.5,.99) .1s,
+						opacity .2s cubic-bezier(.48,.01,.5,.99) .1s,
+						visibility 1s linear;
+		}
+
+		.menu-item {
+
+			&.menu-hover {
+				& > .sub-menu {
+					top: 100%;
+					opacity: 1;
+					visibility: visible;
+					pointer-events: auto;
+					transition: top .3s cubic-bezier(.48,.01,.5,.99),
+								opacity .3s cubic-bezier(.48,.01,.5,.99),
+								visibility 1s linear;
+				}
+			}
+
+			li {
+				&.menu-hover {
+					& > .sub-menu {
+						top: 0;
+						opacity: 1;
+						visibility: visible;
+						pointer-events: auto;
+						transition: top .3s cubic-bezier(.48,.01,.5,.99),
+									opacity .3s cubic-bezier(.48,.01,.5,.99),
+									visibility 1s linear;
+					}
+				}
+			}
+		}
+
+	}
+
+	.menu--animation-type-move-down {
+		.sub-menu {
+			opacity: 0;
+			top: 80%;
+			visibility: visible;
+			transition: top .3s cubic-bezier(.48,.01,.5,.99),
+						opacity .3s cubic-bezier(.48,.01,.5,.99),
+						visibility 1s linear;
+		}
+
+		.menu-item {
+
+			&.menu-hover {
+				& > .sub-menu {
+					top: 100%;
+					opacity: 1;
+					visibility: visible;
+					pointer-events: auto;
+				}
+			}
+
+			li {
+				&.menu-hover {
+					& > .sub-menu {
+						top: 0;
+						opacity: 1;
+						visibility: visible;
+						pointer-events: auto;
+					}
+				}
+			}
+		}
+	}
+}
+.rvdx-navigation .menu-item.rvdx-navigation__item{
+	&:last-child{
+		.menu-item-link.menu-item-link-top{
+			border-right: none;
+		}
+	}
+}
+.rvdx-navigation .menu-item .menu-item-link{
+	justify-content: center;
+	&:before{
+		display: none;
+	}
+	.rvdx-navigation-link-text{
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			display: block;
+			bottom: 8px;
+			left: 0;
+			transition: .4s ease;
+			height: 1px;
+			width: 0;
+		}
+	}
+	&:hover{
+		.rvdx-navigation-link-text{
+			&:before{
+				width: 100%;
+			}
+		}
+	}
+}

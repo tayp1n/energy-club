@@ -1,0 +1,137 @@
+/**
+ * Single Product Thumbnails
+*/
+.pswp__caption{
+	.pswp__caption__center{
+		text-align: center;
+		font-weight: 500;
+		font-size: 16px;
+	}
+}
+.pswp .pswp__bg{
+	opacity: .7 !important;
+}
+.site .woocommerce-product-gallery .woocommerce-product-gallery__trigger{
+	&:hover{
+		background-color: $wc-accent-color;
+		&:before{
+			color: #fff;
+		}
+	}
+	&:before{
+		background-color: transparent;
+		color: $wc-accent-color;
+	}
+}
+.woocommerce-product-gallery {
+	position: relative;
+
+	//gallery trigger
+	&__trigger {
+		display: inline-block;
+		height: 50px;
+		width:  50px;
+		border-radius: 50%;
+		border: $wc-single-product-gallery-trigger-b;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		z-index: 1;
+		text-align: center;
+		font-size: 0;
+		&:hover{
+			background-color: $wc-accent-color;
+		}
+		@media(max-width: 767px){
+			top: 12px;
+			left: 12px;
+			height: 44px;
+			width:  44px;
+		}
+
+		&::before {
+			content: $wc-single-product-gallery-trigger-icon;
+			@extend %icon-font-default;
+			font-size: $wc-single-product-gallery-trigger-fz;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+
+		img {
+			display: none !important;
+		}
+	}
+
+	//gallery
+	.woocommerce-product-gallery__image > a {
+		display: block;
+		font-size: 0;
+		text-align: left;
+		img{
+			height: 600px;
+			object-fit: cover;
+		@media(max-width: 1024px){
+			height: 400px;
+		}
+		}
+		@media(max-width: 767px){
+			margin-bottom: 30px;
+			img{
+				width: 100%;
+				height: auto;
+			}
+		}
+		&:hover{
+			opacity: .6;
+		}
+		&:before{
+			display: none;
+		}
+	}
+
+	//thumbnails
+	.flex-control-thumbs {
+		list-style: none;
+		margin-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 10px;
+
+		li {
+
+			img {
+				border: none;
+				border-radius: 0;
+			}
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		li + li {
+			margin-left: 10px;
+		}
+	}
+	
+	.zoomImg{
+		background: #ffffff;
+	}
+}
+
+.woocommerce-product-gallery--columns-6{
+	li{
+		display: block;
+		width: calc( (100%/6) - (50px/6));
+	}
+}
+.single-product .product_title{
+	text-align: left;
+}
+@media(max-width: 767px){
+	.products .product:last-child {
+		margin: 0 0 20px 0;
+	}
+}

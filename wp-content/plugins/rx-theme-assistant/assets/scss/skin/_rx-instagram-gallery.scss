@@ -1,0 +1,44 @@
+.rx-theme-assistant-instagram-gallery__content {
+	padding: 20px;
+
+	&:before {
+		background-color: rgba(84, 89, 95, 0.6);
+	}
+}
+
+.rx-theme-assistant-instagram-gallery__caption {
+	color: white;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	margin: 10px 0;
+	max-width: 100%;
+	z-index: 1;
+}
+
+.rx-theme-assistant-instagram-gallery__meta {
+	z-index: 1;
+}
+
+.rx-theme-assistant-instagram-gallery__comments-count {
+	color: white;
+	font-size: 20px;
+	margin: 5px;
+}
+
+.rx-theme-assistant-instagram-gallery__comments-icon {
+	color: #707070;
+	margin-right: 5px;
+}
+
+.rx-theme-assistant-instagram-gallery__likes-count {
+	color: white;
+	font-size: 20px;
+	margin: 5px;
+}
+
+.rx-theme-assistant-instagram-gallery__likes-icon {
+	color: #707070;
+	margin-right: 5px;
+}
+

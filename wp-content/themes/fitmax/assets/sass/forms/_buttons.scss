@@ -1,0 +1,66 @@
+.wp-block-freeform input[type=reset],
+.wp-block-freeform input[type=reset]:active,
+.wp-block-freeform input[type=reset]:focus,
+.wp-block-freeform input[type=reset]:hover,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+	@include btn;
+	&:before{
+		display: none;
+	}
+}
+
+// Button styles
+.wp-block-button__link,
+.elementor-button.elementor-size-xs,
+.elementor-button.elementor-size-sm,
+.elementor-button.elementor-size-lg,
+.elementor-button.elementor-size-xl{
+	border-radius: 0;
+	border-width: 2px;
+	border-style: solid;
+	text-transform: uppercase;
+	&:before{
+		display: none;
+	}
+}
+.elementor-button.elementor-size-md,
+.btn {
+	text-decoration: none;
+	@include btn;
+	&:before{
+		display: none;
+	}
+	&.invert-button {
+		border: 2px solid $color__white;
+		background: none;
+	}
+}
+
+// Button icon styles
+.btn-icon {
+	&:before {
+		@include font-awesome-icon;
+		@include font-size(35/16);
+		content: '\f178';
+	}
+}
+
+// Button text-icon styles
+.btn-text-icon {
+	@include font-size(14/16);
+	text-transform: uppercase;
+	font-weight: 500;
+	&:after {
+		transform:translateY(-1px);
+		@include font-awesome-icon;
+		@include font-size(12/16);
+		content: '\f061';
+		margin-left: 6px;
+	}
+}
+.comments-button{
+	border-width: 2px;
+	border-style: solid;
+}

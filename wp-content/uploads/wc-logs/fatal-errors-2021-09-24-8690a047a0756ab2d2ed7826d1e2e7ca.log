@@ -1,0 +1,16 @@
+2021-09-24T17:25:31+00:00 CRITICAL Uncaught Exception: Invalid post. in D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\settings\page\manager.php:101
+Stack trace:
+#0 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\base\document.php(1493): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings(Array, NULL)
+#1 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\base\document.php(698): Elementor\Core\Base\Document->save_settings(Array)
+#2 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\kits\manager.php(236): Elementor\Core\Base\Document->update_settings(Array)
+#3 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\kits\manager.php(394): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option('site_name', 'Fitmax')
+#4 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-includes\class-wp-hook.php(305): Elementor\Core\Kits\Manager->Elemen у D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\settings\page\manager.php доступно 101
+
+2021-09-24T17:26:27+00:00 CRITICAL Uncaught Exception: Invalid post. in D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\settings\page\manager.php:101
+Stack trace:
+#0 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\base\document.php(1493): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings(Array, NULL)
+#1 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\base\document.php(698): Elementor\Core\Base\Document->save_settings(Array)
+#2 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\kits\manager.php(236): Elementor\Core\Base\Document->update_settings(Array)
+#3 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\kits\manager.php(398): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option('site_descriptio...', 'Fitness, Gym an...')
+#4 D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-includes\class-wp-hook.php(305): Elementor\Core у D:\Progs\openservr\OpenServer\domains\wordpressEnergy\wp-content\plugins\elementor\core\settings\page\manager.php доступно 101
+

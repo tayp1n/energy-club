@@ -1,0 +1,125 @@
+/**
+ * WooCommerce Widgets
+ */
+
+@import "price-filter";
+@import "rating-filter";
+@import "attributes-filter";
+@import "active-filters";
+@import "top-rated-products";
+@import "recent-reviews";
+@import "product-categories";
+@import "products";
+@import "recently-viewed-products";
+@import "product-search";
+@import "tag-cloud";
+@import "cart";
+
+.woocommerce.widget{
+	.widget-title {
+		margin: $wc-widgets-title-offset;
+	}
+	
+	+ .widget {
+		margin-top: 68px;
+	}
+}
+@media(min-width: 1025px){
+	.woocommerce .widget{
+		padding: 0 20px;
+		.widget-title{
+			margin-left: -20px;
+			margin-right: -20px;
+		}
+	}
+}
+
+%product-list-widget {
+	list-style: none;
+	margin: 30px 0 0;
+	
+	li {
+		overflow: hidden;
+		
+		a {
+			display: block;
+		}
+		
+		img {
+			float: left;
+			max-width: $wc-product-list-widget-img-width;
+			margin: 0 20px 10px 0;
+		}
+		
+		.amount {
+			font-size: $wc-product-list-widget-price-fz;
+		}
+		
+		ins {
+			font-style: normal;
+			border: none;
+		}
+		
+		del{
+			color: $wc-sale-price-color;
+		}
+		
+		+ li {
+			margin-top: $wc-product-list-widget-items-offset;
+		}
+	}
+}
+
+//calendar in woo sidebar
+.woocommerce .widget.widget_calendar{
+	td, th{
+		font-size: 14px;
+		line-height: 44px;
+		padding: 0;
+	}
+
+	tfoot td{
+		line-height: 24px;
+	}
+
+	th{
+		padding-bottom: 40px;
+	}
+}
+
+//shop sidebar style
+.woocommerce aside.widget-area {
+	.widget + .widget:not(.woocommerce) {
+		border-top: none;
+		padding-top: 0;
+	}
+}
+
+// sidebar color
+.widget .woocommerce-widget-layered-nav{
+	&-list__item{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 14px;
+		margin-bottom: 9px;
+		margin-top: 0;
+		a{
+			color: #fff;
+			width: 100%;
+			padding-left: 25px;
+			z-index: 1;
+			&:hover{
+				color: $wc-accent-color;
+			}
+			&:before{
+				display: none;
+			}
+		}
+		.count{
+			font-size: 12px;
+			position: absolute;
+			right: 0;
+		}
+	}
+}

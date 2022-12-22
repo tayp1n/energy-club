@@ -1,0 +1,45 @@
+/**
+ * Product badges styles
+ */
+.products {
+	.woocommerce-loop-product__link {
+		position: relative;
+		display: block;
+		height: 340px;
+		@media(max-width: 767px){
+			height: 270px;
+		}
+		@media(max-width: 480px){
+			height: 300px;
+		}
+		img{
+			height: 100%;
+			object-fit: cover;
+			display: block;
+		}
+	}
+}
+
+.onsale {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: $wc-badges-fz;
+	line-height: $wc-badges-lh;
+	color: $wc-badges-color;
+	background-color: #f23849;
+	padding: 10px 20px;
+	border-radius: 0;
+	z-index: 1;
+	
+	// loop products badge style
+	.products &{
+			position: absolute;
+			top: 0;
+			left: 0;
+	}
+	
+	// single product badge style
+	.single-product .summary & {
+		margin-bottom: 23px;
+	}
+}

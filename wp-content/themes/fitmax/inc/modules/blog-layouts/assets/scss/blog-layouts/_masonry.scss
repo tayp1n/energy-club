@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------
+### Masonry Posts List
+--------------------------------------------------------------*/
+@mixin transition($transition...) {
+	transition: $transition;
+}
+$color__nothumb: $color__lightblue;
+
+.posts-list.posts-list--masonry {
+	display: block;
+	column-gap: $grid-gutter-width;
+	column-count: 1;
+	@include media-breakpoint-up(md) {
+		column-count: 2;
+	}
+
+	> .post {
+		display: inline-block;
+		width: 100%;
+		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+		page-break-inside: avoid; /* Firefox */
+		break-inside: avoid;
+		.post-thumbnail {
+			line-height: 0;
+		}
+	}
+
+	.posts-list__item.masonry-item {
+		margin-bottom: $grid-gutter-width;
+		.post-thumbnail {
+			&__link {
+				display: block;
+			}
+			img {
+				width: 100%;
+				border-radius: ( $button__border-radius $button__border-radius 0 0);
+			}
+			margin-bottom: 0;
+		}
+		&:not(.has-post-thumbnail) .masonry-item-wrap {
+			border: none;
+			border-radius: $border__radius $border__radius;
+			background-color: $color__related-posts;
+		}
+		.masonry-item-wrap {
+			border-radius: ( 0 0 $border__radius $border__radius);
+			padding: 25px;
+			background-color: $color__related-posts;
+			@include media-breakpoint-up(lg) {
+				padding: 36px 38px 38px;
+			}
+		}
+	}
+
+	/*------------------ layouts Styles -------------------*/
+	.masonry-item {
+		.entry-title .sticky-label {
+			margin-top: 0;
+		}
+		.comments-link {
+			padding: 10px 12px 9px;
+			@include border-radius();
+			@include font-size(11/16);
+			background-color: $color__light;
+			.list-style-v3 & {
+				background-color: transparent;
+				border: 1px solid;
+			}
+			&:before {
+				@include font-awesome-icon;
+				@include font-size(14/16);
+				content: '\f075';
+				margin-right: 4px;
+			}
+		}
+
+		.entry {
+			&-header {
+				.entry-meta {
+					display: flex;
+					flex-wrap: wrap;
+					margin-bottom: 15px;
+					span{
+						@media(min-width: 768px){
+							margin-right: 12px;
+						}
+					}
+				}
+			}
+			&-title {
+				margin: 0 0 10px;
+			}
+			&-meta {
+				@include font-size(14/16);
+			}
+			&-content {
+				margin-bottom: 5px;
+				p {
+					margin: 0 0 0.43em;
+				}
+			}
+		}
+		@media(max-width: 767px){
+			.entry-footer .comments-button{
+				margin-right: 14px;
+			}
+		}
+	}
+}

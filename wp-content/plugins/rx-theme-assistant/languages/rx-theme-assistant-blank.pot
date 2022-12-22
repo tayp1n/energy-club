@@ -1,0 +1,1322 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rx Theme Assistant\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2019-01-12 17:30+0200\n"
+"PO-Revision-Date: 2014-08-20 15:31+0200\n"
+"Last-Translator: FULL NAME <email@example.com>\n"
+"Language-Team: Rovadex <rovadex@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/addons/rx-theme-assistant-banner.php:30
+msgid "Banner"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:46
+#: ../includes/addons/rx-theme-assistant-timeline.php:371
+msgid "Content"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:53
+#: ../includes/addons/rx-theme-assistant-timeline.php:86
+#: ../includes/addons/rx-theme-assistant-timeline.php:345
+#: ../includes/ext/elementor-parallax-ext.php:91
+msgid "Image"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:66
+msgid "Image Size"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:75
+#: ../includes/addons/rx-theme-assistant-timeline.php:101
+#: ../includes/addons/rx-theme-assistant-timeline.php:384
+#: ../includes/widgets/class-elementor-template-widget.php:77
+msgid "Title"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:84
+msgid "Title HTML Tag"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:87
+msgid "H1"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:88
+msgid "H2"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:89
+msgid "H3"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:90
+msgid "H4"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:91
+msgid "H5"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:92
+msgid "H6"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:93
+msgid "div"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:94
+msgid "span"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:95
+msgid "p"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:104
+#: ../includes/addons/rx-theme-assistant-timeline.php:119
+#: ../includes/addons/rx-theme-assistant-timeline.php:397
+msgid "Description"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:113
+#: ../includes/post-meta.php:81
+msgid "Link"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:128
+msgid "Open link in new window"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:142
+msgid "Settings"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:149
+msgid "Animation Effect"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:153
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:169
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:209
+#: ../includes/ext/elementor-parallax-ext.php:107
+msgid "None"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:154
+msgid "Lily"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:155
+msgid "Sadie"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:156
+msgid "Layla"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:157
+msgid "Oscar"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:158
+msgid "Marley"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:159
+msgid "Ruby"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:160
+msgid "Roxy"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:161
+msgid "Bubba"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:162
+msgid "Romeo"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:163
+msgid "Sarah"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:164
+msgid "Chico"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:185
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:312
+#: ../includes/ext/elementor-parallax-ext.php:84
+msgid "General"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:196
+#: ../includes/addons/rx-theme-assistant-timeline.php:478
+#: ../includes/addons/rx-theme-assistant-timeline.php:738
+#: ../includes/addons/rx-theme-assistant-timeline.php:921
+#: ../includes/addons/rx-theme-assistant-timeline.php:1101
+#: ../includes/addons/rx-theme-assistant-timeline.php:1191
+#: ../includes/addons/rx-theme-assistant-timeline.php:1364
+msgid "Normal"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:203
+#: ../includes/addons/rx-theme-assistant-banner.php:258
+msgid "Additional Elements Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:234
+#: ../includes/addons/rx-theme-assistant-banner.php:289
+msgid "Opacity"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:251
+#: ../includes/addons/rx-theme-assistant-timeline.php:508
+#: ../includes/addons/rx-theme-assistant-timeline.php:777
+#: ../includes/addons/rx-theme-assistant-timeline.php:949
+#: ../includes/addons/rx-theme-assistant-timeline.php:1121
+#: ../includes/addons/rx-theme-assistant-timeline.php:1211
+#: ../includes/addons/rx-theme-assistant-timeline.php:1395
+msgid "Hover"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:308
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:365
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:445
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:644
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:779
+#: ../includes/addons/rx-theme-assistant-timeline.php:463
+#: ../includes/addons/rx-theme-assistant-timeline.php:711
+#: ../includes/addons/rx-theme-assistant-timeline.php:906
+msgid "Padding"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:321
+#: ../includes/addons/rx-theme-assistant-banner.php:394
+#: ../includes/addons/rx-theme-assistant-banner.php:463
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:457
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:656
+#: ../includes/addons/rx-theme-assistant-timeline.php:723
+#: ../includes/addons/rx-theme-assistant-timeline.php:1086
+#: ../includes/addons/rx-theme-assistant-timeline.php:1176
+msgid "Margin"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:334
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:378
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:681
+#: ../includes/addons/rx-theme-assistant-timeline.php:440
+#: ../includes/addons/rx-theme-assistant-timeline.php:689
+#: ../includes/addons/rx-theme-assistant-timeline.php:884
+#: ../includes/addons/rx-theme-assistant-timeline.php:1340
+#: ../includes/addons/rx-theme-assistant-timeline.php:1532
+msgid "Border"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:343
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:388
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:691
+#: ../includes/addons/rx-theme-assistant-timeline.php:450
+#: ../includes/addons/rx-theme-assistant-timeline.php:663
+#: ../includes/addons/rx-theme-assistant-timeline.php:699
+#: ../includes/addons/rx-theme-assistant-timeline.php:894
+#: ../includes/addons/rx-theme-assistant-timeline.php:1350
+#: ../includes/addons/rx-theme-assistant-timeline.php:1542
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:244
+msgid "Border Radius"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:365
+msgid "Title Typography"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:374
+msgid "Title Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:406
+#: ../includes/addons/rx-theme-assistant-banner.php:475
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:497
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:711
+msgid "Alignment"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:411
+#: ../includes/addons/rx-theme-assistant-banner.php:480
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:502
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:528
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:716
+#: ../includes/addons/rx-theme-assistant-timeline.php:239
+msgid "Left"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:415
+#: ../includes/addons/rx-theme-assistant-banner.php:484
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:506
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:532
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:720
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:840
+#: ../includes/addons/rx-theme-assistant-timeline.php:243
+msgid "Center"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:419
+#: ../includes/addons/rx-theme-assistant-banner.php:488
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:510
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:536
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:724
+#: ../includes/addons/rx-theme-assistant-timeline.php:247
+msgid "Right"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:434
+msgid "Description Typography"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:443
+msgid "Description Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:503
+msgid "Content Order"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:512
+msgid "Title Order"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-banner.php:528
+msgid "Description Order"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:66
+msgid "Instagram"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:101
+msgid "Instagram Settings"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:110
+msgid "What to display"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:114
+msgid "Tagged Photos"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:115
+msgid "My Photos"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:123
+msgid "Access Token"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:135
+#, php-format
+msgid "Read more about how to get Instagram Access Token %1$s or %2$s"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:136
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:137
+msgid "here"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:148
+msgid "Hashtag (enter without `#` symbol)"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:165
+msgid "Cache Timeout"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:170
+msgid "Minute"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:171
+msgid "Hour"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:172
+msgid "Day"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:173
+msgid "Week"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:181
+msgid "Photo Size"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:185
+msgid "Thumbnail (150x150)"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:186
+msgid "Low (320x320)"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:187
+msgid "Standard (640x640)"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:188
+msgid "High (original)"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:196
+msgid "Number of instagram posts"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:208
+msgid "Enable linking photos"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:210
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:222
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:249
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:261
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:753
+#: ../includes/addons/rx-theme-assistant-timeline.php:76
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:255
+msgid "Yes"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:211
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:223
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:250
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:262
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:754
+#: ../includes/addons/rx-theme-assistant-timeline.php:77
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:256
+msgid "No"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:220
+msgid "Enable caption"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:232
+msgid "Caption length"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:247
+msgid "Enable Comments Count"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:259
+msgid "Enable Likes Count"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:273
+msgid "Layout Settings"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:280
+msgid "Layout type"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:284
+msgid "Masonry"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:285
+msgid "Grid"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:286
+msgid "List"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:294
+msgid "Columns"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:321
+msgid "Item Height"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:344
+msgid "Items Margin"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:416
+msgid "Caption"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:425
+#: ../includes/addons/rx-theme-assistant-timeline.php:745
+#: ../includes/addons/rx-theme-assistant-timeline.php:784
+#: ../includes/addons/rx-theme-assistant-timeline.php:834
+#: ../includes/addons/rx-theme-assistant-timeline.php:1108
+#: ../includes/addons/rx-theme-assistant-timeline.php:1128
+#: ../includes/addons/rx-theme-assistant-timeline.php:1148
+#: ../includes/addons/rx-theme-assistant-timeline.php:1198
+#: ../includes/addons/rx-theme-assistant-timeline.php:1218
+#: ../includes/addons/rx-theme-assistant-timeline.php:1238
+#: ../includes/addons/rx-theme-assistant-timeline.php:1371
+#: ../includes/addons/rx-theme-assistant-timeline.php:1402
+#: ../includes/addons/rx-theme-assistant-timeline.php:1444
+msgid "Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:469
+msgid "Caption Width"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:523
+msgid "Text Alignment"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:554
+#: ../includes/addons/rx-theme-assistant-timeline.php:110
+#: ../includes/addons/rx-theme-assistant-timeline.php:358
+msgid "Meta"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:563
+msgid "Comments Icon"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:574
+msgid "Likes Icon"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:585
+msgid "Icon Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:596
+#: ../includes/addons/rx-theme-assistant-timeline.php:1284
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:169
+msgid "Icon Size"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:616
+msgid "Text Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:668
+msgid "Item Margin"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:742
+msgid "Overlay"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:751
+msgid "Show on hover"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:796
+msgid "Content Order and Alignment"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:805
+msgid "Caption Order"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:820
+msgid "Meta Order"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:835
+msgid "Cover Content Vertical Alignment"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:839
+#: ../includes/addons/rx-theme-assistant-timeline.php:262
+msgid "Top"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:841
+#: ../includes/addons/rx-theme-assistant-timeline.php:270
+msgid "Bottom"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:842
+msgid "Space between"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:872
+msgid "Please, enter #hashtag."
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:876
+msgid "Please, enter Access Token."
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-instagram-gallery.php:963
+msgid "Posts not found"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:31
+msgid "Timeline"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:65
+#: ../includes/addons/rx-theme-assistant-timeline.php:332
+msgid "Cards"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:74
+msgid "Show Image"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:128
+#: ../includes/addons/rx-theme-assistant-timeline.php:410
+msgid "Point"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:137
+msgid "Point Content Type"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:141
+#: ../includes/addons/rx-theme-assistant-timeline.php:1277
+msgid "Icon"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:142
+#: ../includes/addons/rx-theme-assistant-timeline.php:1259
+msgid "Text"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:150
+msgid "Point Icon"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:164
+msgid "Point Text"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:180
+msgid "Card #1"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:182
+#: ../includes/addons/rx-theme-assistant-timeline.php:189
+#: ../includes/addons/rx-theme-assistant-timeline.php:196
+#: ../includes/addons/rx-theme-assistant-timeline.php:203
+msgid ""
+"Lorem ipsum dolor sit amet, mea ei viderer probatus consequuntur, "
+"sonet vocibus lobortis has ad. Eos erant indoctum an, dictas "
+"invidunt est ex, et sea consulatu torquatos. Nostro aperiam "
+"petentium eu nam, mel debet urbanitas ad, idque complectitur eu "
+"quo. An sea autem dolore dolores."
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:184
+msgid "Thursday, August 31, 2018"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:187
+msgid "Card #2"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:191
+msgid "Thursday, August 29, 2018"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:194
+msgid "Card #3"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:198
+msgid "Thursday, August 28, 2018"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:201
+msgid "Card #4"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:205
+msgid "Thursday, August 27, 2018"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:217
+msgid "Layout"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:224
+msgid "Animate Cards"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:234
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:257
+msgid "Vertical Alignment"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:266
+msgid "Middle"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:280
+msgid "Horizontal Space"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:306
+msgid "Vertical Space"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:423
+msgid "Line"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:485
+#: ../includes/addons/rx-theme-assistant-timeline.php:515
+#: ../includes/addons/rx-theme-assistant-timeline.php:557
+msgid "Background"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:528
+#: ../includes/addons/rx-theme-assistant-timeline.php:570
+#: ../includes/addons/rx-theme-assistant-timeline.php:806
+#: ../includes/addons/rx-theme-assistant-timeline.php:856
+#: ../includes/addons/rx-theme-assistant-timeline.php:975
+#: ../includes/addons/rx-theme-assistant-timeline.php:1014
+#: ../includes/addons/rx-theme-assistant-timeline.php:1424
+#: ../includes/addons/rx-theme-assistant-timeline.php:1466
+msgid "Border Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:550
+#: ../includes/addons/rx-theme-assistant-timeline.php:827
+#: ../includes/addons/rx-theme-assistant-timeline.php:988
+#: ../includes/addons/rx-theme-assistant-timeline.php:1141
+#: ../includes/addons/rx-theme-assistant-timeline.php:1231
+#: ../includes/addons/rx-theme-assistant-timeline.php:1437
+msgid "Active"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:594
+msgid "Arrow"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:603
+msgid "Size"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:639
+msgid "Spacing"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:756
+#: ../includes/addons/rx-theme-assistant-timeline.php:795
+#: ../includes/addons/rx-theme-assistant-timeline.php:845
+#: ../includes/addons/rx-theme-assistant-timeline.php:928
+#: ../includes/addons/rx-theme-assistant-timeline.php:956
+#: ../includes/addons/rx-theme-assistant-timeline.php:995
+#: ../includes/addons/rx-theme-assistant-timeline.php:1382
+#: ../includes/addons/rx-theme-assistant-timeline.php:1413
+#: ../includes/addons/rx-theme-assistant-timeline.php:1455
+msgid "Background Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:1029
+msgid "Card Arrow"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:1041
+msgid "Card Arrow Offset"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:1312
+msgid "Point Size"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:1485
+msgid "Line Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:1496
+msgid "Progress Color"
+msgstr ""
+
+#: ../includes/addons/rx-theme-assistant-timeline.php:1507
+msgid "Thickness"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:27
+msgid "Font Color"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:35
+msgctxt "Background Control"
+msgid "Background Type"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:39
+msgctxt "Background Control"
+msgid "Classic"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:43
+msgctxt "Background Control"
+msgid "Gradient"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:52
+msgctxt "Background Control"
+msgid "Color"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:55
+msgctxt "Background Control"
+msgid "Background Color"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:65
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:91
+msgctxt "Background Control"
+msgid "Location"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:80
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:106
+msgctxt "Background Control"
+msgid "Type"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:109
+msgctxt "Background Control"
+msgid "Linear"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:110
+msgctxt "Background Control"
+msgid "Radial"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:121
+msgctxt "Background Control"
+msgid "Angle"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:144
+msgctxt "Background Control"
+msgid "Position"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:147
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:148
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:149
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:150
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:151
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:152
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:153
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:154
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:155
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:188
+msgid "Box Size"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:206
+msgctxt "Border Control"
+msgid "Border Type"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:210
+msgctxt "Border Control"
+msgid "Solid"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:211
+msgctxt "Border Control"
+msgid "Double"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:212
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:213
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:221
+msgctxt "Border Control"
+msgid "Width"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:232
+msgctxt "Border Control"
+msgid "Color"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:253
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:263
+msgctxt "Box Shadow Control"
+msgid "Box Shadow"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:274
+msgctxt "Box Shadow Control"
+msgid "Position"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:277
+msgctxt "Box Shadow Control"
+msgid "Outline"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-box-style.php:278
+msgctxt "Box Shadow Control"
+msgid "Inset"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-transform-style.php:46
+msgctxt "Transform Control"
+msgid "Translate X"
+msgstr ""
+
+#: ../includes/controls/groups/class-rx-theme-assistant-group-control-transform-style.php:67
+msgctxt "Transform Control"
+msgid "Translate Y"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:64
+msgid "Rx Theme Parallax"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:72
+msgid "Layouts"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:103
+msgid "Parallax Type"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:108
+msgid "Scroll"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:109
+msgid "Mouse Move"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:110
+msgid "Scrolling Zoom"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:118
+msgid "Parallax Speed(%)"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:139
+msgid "Advanced"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:146
+msgid "Background Size"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:150
+msgid "Auto"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:151
+msgid "Cover"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:152
+msgid "Contain"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:160
+msgid "Animation Property"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:164
+msgid "Background Position"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:165
+msgid "Transform"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:166
+msgid "Transform 3D"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:174
+msgid "Background X Position(%)"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:186
+msgid "Background Y Position(%)"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:198
+msgid "z-Index"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:209
+msgid "Enable On Device"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:218
+msgid "Desktop"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:219
+msgid "Tablet"
+msgstr ""
+
+#: ../includes/ext/elementor-parallax-ext.php:220
+msgid "Mobile"
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:79
+msgid "Elementor Header Footer options"
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:112
+msgid "Select the type of template this is"
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:116
+msgid "Select Option"
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:117
+msgid "Header"
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:118
+msgid "Footer"
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:124
+msgid "Display Layout automatically on Elementor Canvas Template?"
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:125
+msgid ""
+"Enabling this option will display this layout on pages using "
+"Elementor Canvas Template."
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:133
+msgid "Set this template for all pages."
+msgstr ""
+
+#: ../includes/ext/header-footer-elementor-plugin-ext.php:221
+#, php-format
+msgid "Several %1$s templates are set global. Will be shown only one."
+msgstr ""
+
+#: ../includes/integration.php:50
+msgid "Rx Theme Assistant"
+msgstr ""
+
+#: ../includes/post-meta.php:55
+msgid "Post Formats Settings"
+msgstr ""
+
+#: ../includes/post-meta.php:68
+msgid "Gallery"
+msgstr ""
+
+#: ../includes/post-meta.php:73
+msgid "Image Gallery"
+msgstr ""
+
+#: ../includes/post-meta.php:74
+msgid ""
+"Choose image(s) for the gallery. This setting is used for your "
+"gallery post formats."
+msgstr ""
+
+#: ../includes/post-meta.php:76
+msgid "Set Gallery Images"
+msgstr ""
+
+#: ../includes/post-meta.php:86
+msgid "Link URL"
+msgstr ""
+
+#: ../includes/post-meta.php:87
+msgid ""
+"Enter your external url. This setting is used for your link post "
+"formats."
+msgstr ""
+
+#: ../includes/post-meta.php:92
+msgid "Link Target"
+msgstr ""
+
+#: ../includes/post-meta.php:93
+msgid ""
+"Choose your target for the url. This setting is used for your link "
+"post formats."
+msgstr ""
+
+#: ../includes/post-meta.php:103 ../includes/post-meta.php:108
+msgid "Quote"
+msgstr ""
+
+#: ../includes/post-meta.php:109
+msgid ""
+"Enter your quote. This setting is used for your quote post formats."
+msgstr ""
+
+#: ../includes/post-meta.php:114
+msgid "Cite"
+msgstr ""
+
+#: ../includes/post-meta.php:115
+msgid ""
+"Enter the quote source. This setting is used for your quote post "
+"formats."
+msgstr ""
+
+#: ../includes/post-meta.php:120 ../includes/post-meta.php:125
+msgid "Audio"
+msgstr ""
+
+#: ../includes/post-meta.php:126
+msgid ""
+"Add audio from the media library. This setting is used for your "
+"audio post formats."
+msgstr ""
+
+#: ../includes/post-meta.php:129
+msgid "Set audio"
+msgstr ""
+
+#: ../includes/post-meta.php:134 ../includes/post-meta.php:223
+msgid "Loop"
+msgstr ""
+
+#: ../includes/post-meta.php:135 ../includes/post-meta.php:224
+msgid "Allows for the looping of media."
+msgstr ""
+
+#: ../includes/post-meta.php:141 ../includes/post-meta.php:230
+msgid "Autoplay"
+msgstr ""
+
+#: ../includes/post-meta.php:142 ../includes/post-meta.php:231
+msgid ""
+"Causes the media to automatically play as soon as the media file is "
+"ready."
+msgstr ""
+
+#: ../includes/post-meta.php:148 ../includes/post-meta.php:240
+msgid "Preload"
+msgstr ""
+
+#: ../includes/post-meta.php:149
+msgid ""
+"Specifies if and how the audio should be loaded when the page loads."
+msgstr ""
+
+#: ../includes/post-meta.php:155
+msgid "Video"
+msgstr ""
+
+#: ../includes/post-meta.php:160
+msgid "Video Source Type"
+msgstr ""
+
+#: ../includes/post-meta.php:161
+msgid ""
+"Choose video source type. This setting is used for your video post "
+"formats."
+msgstr ""
+
+#: ../includes/post-meta.php:175
+msgid "Library Video"
+msgstr ""
+
+#: ../includes/post-meta.php:176
+msgid ""
+"Add video from the media library. This setting is used for your "
+"video post formats."
+msgstr ""
+
+#: ../includes/post-meta.php:179
+msgid "Set Video"
+msgstr ""
+
+#: ../includes/post-meta.php:187
+msgid "External Video URL"
+msgstr ""
+
+#: ../includes/post-meta.php:188
+msgid ""
+"Enter a URL that is compatible with WP built-in oEmbed feature. "
+"This setting is used for your video post formats."
+msgstr ""
+
+#: ../includes/post-meta.php:196
+msgid "Video Poster"
+msgstr ""
+
+#: ../includes/post-meta.php:197
+msgid "Defines image to show as placeholder before the media plays."
+msgstr ""
+
+#: ../includes/post-meta.php:200
+msgid "Set Poster"
+msgstr ""
+
+#: ../includes/post-meta.php:205
+msgid "Width"
+msgstr ""
+
+#: ../includes/post-meta.php:206
+msgid "Defines width of the media."
+msgstr ""
+
+#: ../includes/post-meta.php:214
+msgid "Height"
+msgstr ""
+
+#: ../includes/post-meta.php:215
+msgid "Defines height of the media."
+msgstr ""
+
+#: ../includes/post-meta.php:241
+msgid ""
+"Specifies if and how the video should be loaded when the page loads."
+msgstr ""
+
+#: ../includes/post-meta.php:249
+msgid "Page Settings"
+msgstr ""
+
+#: ../includes/post-meta.php:258
+msgid "Use Breadcrumbs"
+msgstr ""
+
+#: ../includes/post-meta.php:259
+msgid "Breadcrumbs enable global settings redefining."
+msgstr ""
+
+#: ../includes/post-meta.php:268
+msgid "Page Header"
+msgstr ""
+
+#: ../includes/post-meta.php:269
+msgid "Choose header for this page."
+msgstr ""
+
+#: ../includes/post-meta.php:275
+msgid "Page Footer"
+msgstr ""
+
+#: ../includes/post-meta.php:276
+msgid "Choose footer for this page."
+msgstr ""
+
+#: ../includes/settings.php:110
+msgid "Settings saved"
+msgstr ""
+
+#: ../includes/settings.php:210 ../includes/settings.php:211
+msgid "Theme Assistant"
+msgstr ""
+
+#: ../includes/settings.php:232
+msgid "Rx Theme Settings"
+msgstr ""
+
+#: ../includes/settings.php:273
+msgid "Save"
+msgstr ""
+
+#: ../includes/settings.php:295
+msgid "Use nucleo-mini icon package"
+msgstr ""
+
+#: ../includes/settings.php:296
+msgid "Add nucleo-mini icon package to Elementor icon picker control"
+msgstr ""
+
+#: ../includes/tools.php:51
+msgid "Full"
+msgstr ""
+
+#: ../includes/widgets/class-elementor-template-widget.php:69
+msgid "RX: Elementor Template"
+msgstr ""
+
+#: ../includes/widgets/class-elementor-template-widget.php:70
+msgid "Display your Elementor Template."
+msgstr ""
+
+#: ../includes/widgets/class-elementor-template-widget.php:85
+#: ../includes/widgets/class-elementor-template-widget.php:87
+msgid "Select template"
+msgstr ""
+
+#: ../includes/widgets/class-elementor-template-widget.php:177
+msgid "-- Select template --"
+msgstr ""

@@ -1,0 +1,36 @@
+/**
+ * Product grid styles
+ */
+.products.products-grid{
+	.added_to_cart,
+	.button{
+		width: auto;
+		margin: 5px 0;
+	}
+	
+	.product{
+		img{
+			width: 100%;
+			transition: .3s ease-in-out;
+			&:hover{
+				opacity: .6;
+			}
+		}
+	}
+	
+	.star-rating {
+		margin: 20px auto 0;
+	}
+}
+
+.select_option_colorpicker{
+	border: none;
+	&.selected{
+		span, img{
+			border-color: $wc-accent-color;
+		}
+	}
+	 span, img{
+		border: 2px solid transparent;
+	}
+}

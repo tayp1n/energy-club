@@ -1,0 +1,24 @@
+/**
+ * Product main styles
+ */
+.products{
+
+	a:focus{
+		outline: none;
+	}
+
+	.product{
+		margin: $wc-product-offset;
+		
+		.product-content{
+			text-align: center;
+			padding-bottom: 30px;
+			.star-rating{
+				display: none;
+			}
+			.price ins{
+				font-size: 22px;
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+.rx-theme-assistant-services {
+
+	.rx-theme-assistant-services__media {
+		color: white;
+		font-size: 40px;
+		text-align: center;
+
+		.inner {
+			width: 80px;
+			height: 80px;
+			background-color: #7a7a7a;
+
+			i {
+				color: white;
+				font-size: 40px;
+			}
+		}
+	}
+
+	.rx-theme-assistant-services__title {
+		font-size: 20px;
+		color: black;
+		margin: 10px 0;
+	}
+
+	.rx-theme-assistant-services__desc {
+		text-align: center;
+		font-size: 16px;
+		color: #54595f;
+		margin: 10px 0;
+	}
+}

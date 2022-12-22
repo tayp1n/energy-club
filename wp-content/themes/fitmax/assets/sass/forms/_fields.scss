@@ -1,0 +1,167 @@
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='range'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='datetime'],
+input[type='datetime-local'],
+select,
+textarea {
+	width: 100%;
+	box-sizing: border-box;
+	padding: $input__indents;
+	border: 2px solid transparent;
+	border-bottom-color: $color__border-input;
+	background-color: transparent;
+	transition: .3s ease;
+	&:focus {
+		outline: none;
+		border-color: #fcbd56;
+	}
+}
+.form-wrap{
+	margin: 0;
+	padding-bottom: 50px;
+	label{
+		display: block;
+		margin-bottom: 8px;
+		font-weight: 500;
+		font-size: 14px;
+	}
+	li{
+		list-style-type: none;
+		textarea,
+		input:not([type="submit"]){
+			padding: 10px 10px 9px;
+		}
+	}
+	.form-btn-wrap{
+		display: flex;
+		justify-content: flex-end;
+		.btn{
+			display: block;
+			width: auto;
+			margin-top: 30px;
+		}
+	}
+}
+.form-check-cover{
+	margin-top: 4px;
+	span.wpcf7-not-valid-tip{
+		right: auto;
+		left: 0;
+		top: -16px;
+	}
+	.wpcf7-form-control-wrap.wpgdprc{
+		.wpcf7-wpgdprc{
+			padding: 0;
+			background-color: transparent !important;
+			.wpcf7-list-item{
+				margin-left: 0;
+				position: relative;
+				font-weight: 600;
+				font-size: 14px;
+				display: block;
+				color: #B0B2B5;
+				padding-left: 40px;
+				&-label{
+					&:before{
+						content: '';
+						position: absolute;
+						width: 25px;
+						height: 25px;
+						border: 1px solid #f23849;
+						border-radius: 5px;
+						left: 0;
+						top: 0;
+					}
+					&:after{
+						content: '\f00c';
+						position: absolute;
+						color: #fff;
+						font-family: 'FontAwesome';
+						top: 1px;
+						left: 6px;
+						opacity: 0;
+					}
+				}
+				input{
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 1;
+					opacity: 0;
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+.form-check-cover .wpcf7-form-control-wrap.wpgdprc .wpcf7-wpgdprc input:checked + .wpcf7-list-item-label:after{
+	opacity: 1;
+}
+.wpcf7-form-control-wrap{
+	display: block;
+}
+div.wpcf7-response-output{
+	border: none;
+	margin: 0;
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	width: 100%;
+	font-weight: 300;
+}
+span.wpcf7-not-valid-tip{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-weight: 300;
+	line-height: 18px;
+	font-size: 10px;
+	text-align: right;
+	color: $color__accent;
+}
+div.wpcf7 .ajax-loader{
+	display: none;
+}
+
+input[type='submit'],
+input[type='reset'] {
+	&:focus {
+		outline: none;
+	}
+}
+
+input[type='submit'],
+input[type='reset'] {
+	@include font-size(11/16);
+	font-weight: 600;
+}
+
+select {
+	border: 1px solid $color__border-input;
+}
+
+textarea {
+	min-height: 150px;
+	resize: none;
+}
+
+.form-subscribe .jw-subscribe-form--inline-layout .jw-subscribe-form__input-group{
+	flex-wrap: nowrap;
+	.jw-subscribe-form__input{
+		width: 100%;
+	}
+}
+
+::-moz-placeholder { opacity: 1; }
+:-moz-placeholder { opacity: 1; }

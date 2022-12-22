@@ -1,0 +1,40 @@
+.jw-images-layout {
+
+	&__inner {
+		margin: 10px;
+	}
+
+	&__icon {
+		.jw-images-layout-icon-inner {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+		}
+
+		i, svg {
+			font-size: 40px;
+			color: white;
+		}
+	}
+
+	&__content {
+		padding: 20px;
+
+		&:before {
+			opacity: 0.4;
+			background-color: rgba(84, 89, 95, 0.6);
+		}
+	}
+
+	.jw-images-layout__title {
+		color: white;
+		font-size: 23px;
+		margin: 0 0 10px 0;
+	}
+
+	.jw-images-layout__desc {
+		color: white;
+		font-size: 13px;
+		margin: 0 0 10px 0;
+	}
+}

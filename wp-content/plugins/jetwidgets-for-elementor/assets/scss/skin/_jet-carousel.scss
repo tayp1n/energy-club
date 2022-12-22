@@ -1,0 +1,29 @@
+.jw-carousel {
+	.jw-carousel__item {
+		&-title {
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.jw-arrow {
+		width: 36px;
+		height: 36px;
+		border-radius: 18px;
+		margin-top: -18px;
+		color: #fff;
+		&:before {
+			font-size: 23px;
+		}
+		&.prev-arrow {
+			left: 20px;
+		}
+		&.next-arrow {
+			right: 20px;
+		}
+
+		svg {
+			width: 1em;
+			height: 1em;
+		}
+	}
+}

@@ -1,0 +1,1 @@
+°ota<?php exit; ?>a:1:{s:7:"content";s:156:"{"mobile":null,"desktop":null,"test_url":"https:\/\/developers.google.com\/speed\/pagespeed\/insights\/?url=http%3A%2F%2Fwordpressenergy","time":1635019564}";}

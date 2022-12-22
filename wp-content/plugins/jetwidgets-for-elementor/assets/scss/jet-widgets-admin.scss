@@ -1,0 +1,48 @@
+.jet-widgets-settings-page {
+	display: flex;
+	flex-wrap: nowrap;
+
+	@media screen and (max-width: 1200px) {
+		flex-wrap: wrap;
+	}
+
+	.jet_widgets_settings {
+		flex-grow: 1;
+		margin-right: 20px;
+	}
+
+	.jet-widgets-banner {
+		flex-shrink: 0;
+		margin: 10px 20px 0 0;
+
+		&__link {
+			display: block;
+		}
+
+		&__img {
+			vertical-align: top;
+		}
+	}
+}
+
+.jet_widgets_settings_form {
+	&__checkbox-group {
+
+		.cherry-ui-container {
+			display: flex;
+			flex-flow: row wrap;
+
+			.cherry-checkbox-item-wrap {
+				width: 33.333%;
+
+				@media screen and (max-width: 1200px) {
+					width: 50%;
+				}
+
+				@media screen and (max-width: 782px) {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------
+### Posts List
+--------------------------------------------------------------*/
+
+.default-item {
+	.post-thumbnail {
+		margin-bottom: 20px;
+	}
+}
+
+.posts-list--default {
+	.default-item+.default-item {
+		margin-top: 89px;
+	}
+}
+
+/*-------------------
+### Default Styles
+---------------------*/
+.default-item {
+	.posts-list--default & {
+		.post-thumbnail{
+			margin-bottom: 14px;
+		}
+		body:not(.sidebar_enabled) & {
+			max-width: 770px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.entry {
+			&-content {
+				margin-bottom: 27px;
+				iframe{
+					margin-top: 8px;
+				}
+				p{
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+				@include media-breakpoint-up(sm) {
+					@include font-size(16/16);
+				}
+			}
+			&-footer {
+				.entry-meta {
+					.comments-button{
+						vertical-align: middle;
+					}
+					.tags-links+div:not(:empty) {
+						margin-top: 24px;
+					}
+					>div {
+						@include space-between-content;
+					}
+				}
+			}
+		}
+	}
+}
+/*--------------------------------------------------------------
+### Posts List Formats
+--------------------------------------------------------------*/
+
+.default-item.format-post {
+	.entry-footer .entry-meta {
+		.tags-links+div:not(:empty) {
+			margin-top: 24px;
+		}
+		>div {
+			@include space-between-content;
+		}
+	}
+}
+.default-item.posts-list__item.post_format-post-format-link .entry-content,
+.default-item.posts-list__item.post_format-post-format-status .entry-content,
+.default-item.posts-list__item.post_format-post-format-aside .entry-content{
+	margin: 18px 0 21px;
+}

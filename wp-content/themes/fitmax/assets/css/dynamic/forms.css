@@ -1,0 +1,91 @@
+input,
+optgroup,
+select,
+textarea {
+	font-size: $body_font_size{px};
+}
+
+/* #Comment, Contact, Password Forms */
+.elementor-button.elementor-size-md,
+.comment-form .submit,
+.wpcf7-submit,
+.post-password-form label + input {
+	font-style: $button_font_style;
+	font-weight: $button_font_weight;
+	font-size: $button_font_size{px};
+	line-height: $button_line_height;
+	font-family: @font_family( $button_font_family );
+	letter-spacing: $button_letter_spacing{px};
+
+	color: $invert_text_color;
+	background-color: $accent_color;
+}
+.comment-form .submit:hover,
+.wpcf7-submit:hover,
+.post-password-form label + input:hover {
+	color: $link_color;
+	background-color: transparent;
+}
+.elementor-166 .elementor-element.elementor-element-ac39307 .elementor-button.jw-subscribe-form__submit:active .jw-subscribe-form__submit-icon,
+.comment-form .submit:active,
+.wpcf7-submit:active,
+.post-password-form label + input:active{
+	color: $primary_text_color;
+}
+/* Cookies consent */
+.comment-form-cookies-consent input[type='checkbox']:checked ~ label[for=wp-comment-cookies-consent]:before {
+	color: $invert_text_color;
+	border-color: $accent_color;
+	background-color: $accent_color;
+}
+/* #Comment Reply Link */
+#cancel-comment-reply-link {
+	color: $link_color;
+}
+#cancel-comment-reply-link:hover {
+	color: $link_hover_color;
+}
+
+/* #Comment item */
+.comment-body .fn {
+	color: $accent_color;
+}
+.comment-date__time {
+	color: $accent_color;
+}
+.comment-date__time::before{
+	color: #fff;
+}
+.comment-reply-link {
+	font-family: @font_family( $button_font_family );
+}
+
+.header-search .search-form .search-form__field::-webkit-input-placeholder { color: #fff; }
+.header-search .search-form .search-form__field::-moz-placeholder          { color: #fff; }
+.header-search .search-form .search-form__field:-moz-placeholder           { color: #fff; }
+.header-search .search-form .search-form__field:-ms-input-placeholder      { color: #fff; }
+
+.woocommerce-product-search input::-webkit-input-placeholder { color: #8F8F8F; }
+.woocommerce-product-search input::-moz-placeholder          { color: #8F8F8F; }
+.woocommerce-product-search input:-moz-placeholder           { color: #8F8F8F; }
+.woocommerce-product-search input:-ms-input-placeholder      { color: #8F8F8F; }
+
+.comment-form input::-webkit-input-placeholder { color: #fff; }
+.comment-form input::-moz-placeholder          { color: #fff; }
+.comment-form input:-moz-placeholder           { color: #fff; }
+.comment-form input:-ms-input-placeholder      { color: #fff; }
+
+.comment-form textarea::-webkit-input-placeholder { color: #fff; }
+.comment-form textarea::-moz-placeholder          { color: #fff; }
+.comment-form textarea:-moz-placeholder           { color: #fff; }
+.comment-form textarea:-ms-input-placeholder      { color: #fff; }
+
+.search-form .search-form__field::-webkit-input-placeholder { color: #8F8F8F; }
+.search-form .search-form__field::-moz-placeholder          { color: #8F8F8F; }
+.search-form .search-form__field:-moz-placeholder           { color: #8F8F8F; }
+.search-form .search-form__field:-ms-input-placeholder      { color: #8F8F8F; }
+/* #Input Placeholders */
+::-webkit-input-placeholder { color: #8F8F8F; }
+::-moz-placeholder          { color: #8F8F8F; }
+:-moz-placeholder           { color: #8F8F8F; }
+:-ms-input-placeholder      { color: #8F8F8F; }
